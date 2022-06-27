@@ -1,6 +1,7 @@
 import React from "react";
 
 const MainReviews = (props) => {
+  
   return (
     <div className="reviews_form">
       <span className="avatar">
@@ -32,6 +33,11 @@ const MainReviews = (props) => {
         <span>{props.likes}</span>
         <button className="add_like_btn">+</button>
       </span>
+      <div className="delete_btn">
+        <form>
+          <button>DELETE</button>
+        </form>
+      </div>
     </div>
   );
 };

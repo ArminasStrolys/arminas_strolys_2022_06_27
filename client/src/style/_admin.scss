@@ -1,0 +1,32 @@
+.info_title {
+  margin: 50px auto;
+  text-align: center;
+}
+.add_worker_class {
+  background-color: rgb(223, 223, 223);
+  padding: 20px;
+  width: 50%;
+  margin: 50px auto;
+  form {
+    text-align: right;
+    label,
+    input {
+      margin: 10px auto;
+      position: relative;
+      right: 30%;
+    }
+  }
+  .submit_worker_button {
+    margin-top: 30px;
+    width: 100%;
+    border: 0;
+    background-color: rgb(189, 189, 189);
+    padding: 10px;
+    border-radius: 6px;
+    transition: 0.3s;
+  }
+  .submit_worker_button:hover {
+    cursor: pointer;
+    background-color: rgb(160, 148, 148);
+  }
+}

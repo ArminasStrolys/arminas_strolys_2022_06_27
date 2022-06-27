@@ -18,6 +18,21 @@
   }
   .add_like_btn:hover {
     cursor: pointer;
-    background-color: red;
+    background-color: green;
+  }
+  .delete_btn {
+    float: right;
+    position: relative;
+    right: -15px;
+    bottom: -15px;
+    transition: 0.3s;
+    button {
+      background-color: rgba(255, 0, 0, 0.37);
+      border: none;
+      cursor: pointer;
+    }
+  }
+  .delete_btn:hover {
+    background-color: rgba(255, 111, 111, 0.658);
   }
 }
