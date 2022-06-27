@@ -1,0 +1,49 @@
+{
+  "reviews": [
+    {
+      "name": "Mantas",
+      "surname": "Mantavičius",
+      "specialization": "Kėbulas",
+      "photo": "https://thumbs.dreamstime.com/z/car-service-worker-carries-out-diagnostics-car-repairs-car-service-worker-carries-out-diagnostics-car-repairs-room-190225457.jpg",
+      "service": "Defektų lyginimas",
+      "city": "Jonava",
+      "likes": 10
+    },
+    {
+      "name": "Marius",
+      "surname": "Mariavičius",
+      "specialization": "Elektronika",
+      "photo": "https://thumbs.dreamstime.com/z/car-service-worker-carries-out-diagnostics-car-repairs-car-service-worker-carries-out-diagnostics-car-repairs-room-190225457.jpg",
+      "service": "Elektroninių gedimų diagnostika",
+      "city": "Jonava",
+      "likes": 10
+    },
+    {
+      "name": "Valdas",
+      "surname": "Valdavičius",
+      "specialization": "Mechanika",
+      "photo": "https://thumbs.dreamstime.com/z/car-service-worker-carries-out-diagnostics-car-repairs-car-service-worker-carries-out-diagnostics-car-repairs-room-190225457.jpg",
+      "service": "Mechaninių dalių remontas",
+      "city": "Jonava",
+      "likes": 10
+    },
+    {
+      "name": "Rokas",
+      "surname": "Rokavičius",
+      "specialization": "Važiuoklė",
+      "photo": "https://thumbs.dreamstime.com/z/car-service-worker-carries-out-diagnostics-car-repairs-car-service-worker-carries-out-diagnostics-car-repairs-room-190225457.jpg",
+      "service": "Važiuoklės remontas",
+      "city": "Jonava",
+      "likes": 10
+    },
+    {
+      "name": "Jonas",
+      "surname": "Jonavičius",
+      "specialization": "Variklis",
+      "photo": "https://thumbs.dreamstime.com/z/car-service-worker-carries-out-diagnostics-car-repairs-car-service-worker-carries-out-diagnostics-car-repairs-room-190225457.jpg",
+      "service": "Variklio diagnostika",
+      "city": "Jonava",
+      "likes": 10
+    }
+  ]
+}

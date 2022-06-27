@@ -2,14 +2,17 @@
   margin: 0 auto;
   padding-top: 50px;
   width: 400px;
-  height: 150px;
-  text-align: center;
+  height: 190px;
   background-color: rgb(219, 238, 201);
+  text-align: center;
   border-radius: 15px;
 }
 .login_form {
   margin: auto;
   width: 200px;
+  input{
+    margin: 5px;
+  }
   button {
     background-color: rgb(161, 217, 255);
     width: 40%;
@@ -22,5 +25,9 @@
   button:hover {
     background-color: rgb(122, 202, 255);
     cursor: pointer;
+  }
+  a {
+    color: black;
+    text-decoration: none;
   }
 }
