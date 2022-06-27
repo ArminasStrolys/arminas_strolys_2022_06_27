@@ -25,12 +25,12 @@ const MainReviews = (props) => {
       <span>
         <b>Miestas: </b>
         <span>{props.city}</span>
-        <button>Add like</button>
       </span>
       <br />
       <span>
         <b>Likes: </b>
         <span>{props.likes}</span>
+        <button className="add_like_btn">+</button>
       </span>
     </div>
   );
