@@ -18,7 +18,7 @@ const AdminPanel = () => {
   });
 
   const handleSubmit = (e) => {
-    // e.preventDefault();
+    e.preventDefault();
     createEntry();
   };
 

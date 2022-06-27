@@ -19,6 +19,16 @@
       "city": "Jonava",
       "likes": 85,
       "id": 9892848468
+    },
+    {
+      "specialization": "s",
+      "surname": "asd",
+      "service": "s",
+      "name": "asd",
+      "city": "s",
+      "photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSVT4Rr5cR5W8qciEsozIXL9RPO86UX07wc_g&usqp=CAU",
+      "id": 505931912,
+      "likes": 0
     }
   ]
 }
