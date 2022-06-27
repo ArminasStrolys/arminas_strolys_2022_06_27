@@ -11,7 +11,7 @@ const Login = () => {
         <input type="text" required />
         <br />
         <button>Login</button>
-        <button>Register</button>
+        <button><a href="/register">Register</a></button>
       </form>
     </div>
   );

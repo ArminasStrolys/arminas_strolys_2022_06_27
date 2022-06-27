@@ -1,19 +1,21 @@
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Navbar from "./navbar/Navbar";
+import Main from "./main/Main";
 import Login from "./login/Login";
 import Register from "./register/Register";
+
 
 function App() {
   return (
     <div>
       <Navbar />
-      <Login />
       <Router>
         <Routes>
+        <Route path="/" element={<Main />} />
         <Route path="/login" element={<Login />} />
+        <Route path="/register" element={<Register />} />
         </Routes>
       </Router>
-      <h1>TEST</h1>
     </div>
   );
 }

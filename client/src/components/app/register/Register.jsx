@@ -2,8 +2,8 @@ import React from "react";
 
 const Register = () => {
   return (
-    <div>
-      <form>
+    <div className="register_panel">
+      <form className="register_form">
       <label>Username</label>
         <input type="text" required />
         <br />
@@ -13,8 +13,8 @@ const Register = () => {
         <label>Repeat password</label>
         <input type="password" required />
         <br />
-        <button>Login</button>
-        <button>Register</button>
+        <button>Confirm</button>
+        <button><a href="/login">Back to login</a></button>
       </form>
     </div>
   );

@@ -3,10 +3,24 @@
   padding-top: 50px;
   width: 400px;
   height: 150px;
-  border: 1px solid black;
   text-align: center;
+  background-color: rgb(219, 238, 201);
+  border-radius: 15px;
 }
 .login_form {
   margin: auto;
   width: 200px;
+  button {
+    background-color: rgb(161, 217, 255);
+    width: 40%;
+    border: none;
+    margin: 10px 10px;
+    padding: 5px 0;
+    transition: 0.3s;
+    border-radius: 5px;
+  }
+  button:hover {
+    background-color: rgb(122, 202, 255);
+    cursor: pointer;
+  }
 }

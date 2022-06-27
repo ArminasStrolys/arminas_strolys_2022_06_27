@@ -1,0 +1,29 @@
+.register_panel {
+  margin: 0 auto;
+  padding-top: 50px;
+  width: 400px;
+  height: 250px;
+  background-color: rgb(241, 200, 200);
+  text-align: center;
+  border-radius: 15px;
+}
+.register_form {
+  margin: auto;
+  width: 200px;
+  input {
+    margin: 5px;
+  }
+  button {
+    background-color: rgb(161, 217, 255);
+    width: 40%;
+    border: none;
+    margin: 10px 10px;
+    padding: 5px 0;
+    transition: 0.3s;
+    border-radius: 5px;
+  }
+  button:hover {
+    background-color: rgb(122, 202, 255);
+    cursor: pointer;
+  }
+}
