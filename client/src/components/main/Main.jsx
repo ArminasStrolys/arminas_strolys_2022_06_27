@@ -1,11 +1,14 @@
 import React, { useState, useEffect } from "react";
 import MainReviews from "../main_reviews/MainReviews";
+import { useLocation } from "react-router-dom";
 import Data from "../../data/data.json";
 
 const Main = () => {
 
   const [data, setData] = useState([]);
-
+  const location = useLocation();
+  const ids = location.state;
+console.log(ids)
   useEffect(() => {
     fetch("http://localhost:3001/reviews")
       .then((res) => res.json())
@@ -26,6 +29,7 @@ const Main = () => {
           service={review.service}
           city={review.city}
           likes={review.likes}
+          id={review.id}
         />
       ))}
       

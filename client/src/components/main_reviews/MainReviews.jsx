@@ -3,9 +3,20 @@ import { Link } from "react-router-dom";
 
 const MainReviews = (props) => {
 
+    // deletes review from json file
+    const deleteEntry = () => {
+      fetch("http://localhost:3001/reviews/" + props.id, {
+        method: "DELETE",
+        headers: {
+          "Content-Type": "application/json",
+        },
+      });
+    };
+
   const handleSubmit = (e) => {
     e.preventDefault()
-
+    deleteEntry()
+    console.log(deleteEntry())
   }
   
   return (
@@ -43,7 +54,7 @@ const MainReviews = (props) => {
         <form onSubmit={e=>handleSubmit(e)}>
 
           <button type="submit">
-          <Link to="/" state={props.likes}>
+          <Link to="/" state={props.id}>
           DELETE
           </Link>
           </button>

@@ -1,13 +1,11 @@
 import React, { useState } from "react";
-import { useLocation } from "react-router-dom";
 // import Data from "../../data/data.json";
 
 const AdminPanel = () => {
   const randomId = (min, max) => {
     return Math.floor(Math.random() * (max - min + 1) + min);
   };
-  const location = useLocation();
-  const data = location.state;
+
   const [addReview, setAddReview] = useState({
     specialization: "",
     surname: "",
@@ -21,9 +19,8 @@ const AdminPanel = () => {
   });
 
   const handleSubmit = (e) => {
-    e.preventDefault();
+    // e.preventDefault();
     createEntry();
-    console.log(addReview);
   };
 
   // creates a review and writes it into json file
@@ -46,16 +43,6 @@ const AdminPanel = () => {
         id: addReview.id,
       })
     );
-  };
-
-    // deletes review from json file
-  const deleteEntry = () => {
-    fetch("http://localhost:3001/reviews/" + data, {
-      method: "DELETE",
-      headers: {
-        "Content-Type": "application/json",
-      },
-    });
   };
 
   return (
@@ -134,7 +121,6 @@ const AdminPanel = () => {
             Submit worker details
           </button>
         </form>
-        {console.log(data)}
       </div>
     </>
   );
