@@ -1,6 +1,12 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const MainReviews = (props) => {
+
+  const handleSubmit = (e) => {
+    e.preventDefault()
+
+  }
   
   return (
     <div className="reviews_form">
@@ -34,8 +40,14 @@ const MainReviews = (props) => {
         <button className="add_like_btn">+</button>
       </span>
       <div className="delete_btn">
-        <form>
-          <button>DELETE</button>
+        <form onSubmit={e=>handleSubmit(e)}>
+
+          <button type="submit">
+          <Link to="/" state={props.likes}>
+          DELETE
+          </Link>
+          </button>
+          
         </form>
       </div>
     </div>
