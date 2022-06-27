@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-// import Data from "../../data/data.json";
 
 const AdminPanel = () => {
   const randomId = (min, max) => {

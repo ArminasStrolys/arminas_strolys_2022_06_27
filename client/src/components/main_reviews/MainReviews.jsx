@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import Data from "../../data/data.json";
 
 const MainReviews = (props) => {
 
@@ -17,6 +17,7 @@ const MainReviews = (props) => {
     e.preventDefault()
     deleteEntry()
     console.log(deleteEntry())
+    console.log('enter')
   }
   
   return (
@@ -54,9 +55,7 @@ const MainReviews = (props) => {
         <form onSubmit={e=>handleSubmit(e)}>
 
           <button type="submit">
-          <Link to="/" state={props.id}>
-          DELETE
-          </Link>
+DELETE
           </button>
           
         </form>
